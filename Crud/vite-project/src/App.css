@@ -1,0 +1,182 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+input{
+  padding: 10px;
+}
+.save{
+  height: 40px;
+ background-color: green;
+ color: white;   
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* App.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+/* Home component styling */
+.home {
+  margin: 20px;
+}
+
+.home h1 {
+  color: #007bff;
+}
+
+/* Form styling */
+.user-form {
+  margin: 20px auto;
+  
+  padding: 20px 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 500px;
+  background-color: #fff;
+}
+
+.user-form table {
+  width: 100%;
+}
+
+.user-form td {
+  padding: 10px;
+}
+
+.user-form input[type="text"],
+.user-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-form input[type="radio"] {
+  margin: 0 5px;
+}
+
+.user-form .save {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-form .save:hover {
+  background-color: #218838;
+}
+
+/* User list styling */
+.user-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.user-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  opacity: 0.8;
+}
+
+.user-table button:first-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.user-table button:last-child {
+  background-color: #ffc107;
+  color: black;
+}
